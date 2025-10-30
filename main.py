@@ -17,7 +17,7 @@ ui.footer().style('padding: 10px; text-align:center').add(
 )
 
 # Backend data
-notes = {}
+notes = []
 
 def add_note():
     text = note_input.value.strip() if note_input.value else ''
