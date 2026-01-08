@@ -10,7 +10,7 @@ with ui.row().classes('items-center w-full p-4 gap-2'):
     add_btn = ui.button('Add Note', on_click=lambda: add_note()).classes('w-1/6')
 
 # Main container for notes
-notes_container = ui.column().classes('w-full items-center p-4 gap-2')
+notes_container = ui.column().classses('w-full items-center p-4 gap-2')
 
 ui.footer().style('padding: 10px; text-align:center').add(
     ui.label('Built with NiceGUI • YourName')
